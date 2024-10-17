@@ -1,0 +1,7 @@
+.article-form-container{
+    padding: 25px;
+}
+
+.article-form-container > .title{
+    font-size: 25px !important;
+}

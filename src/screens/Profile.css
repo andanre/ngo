@@ -1,0 +1,55 @@
+.Container-profil {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .Container-profil > div {
+    margin-bottom: 20px;
+  }
+  
+  .Container-profil h1 {
+    font-size: 2.5em;
+    color: #2c3e50;
+    margin-bottom: 10px;
+  }
+  
+  .Container-profil h2 {
+    font-size: 2em;
+    color: #3498db;
+    margin-bottom: 10px;
+  }
+  
+  .Container-profil p {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #34495e;
+  }
+  
+  .Container-profil div {
+    padding: 10px;
+    border: 1px solid #ecf0f1;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .Container-profil .struktur,
+  .Container-profil .tupoksi {
+    padding: 20px;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .Container-profil .data-pegawai {
+    background-color: #eaf2f8;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #b0bec5;
+  }
+  
+  .Container-profil .data-pegawai p {
+    margin: 5px 0;
+  }
+  

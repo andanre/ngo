@@ -1,0 +1,72 @@
+/* Mengatur seluruh container hero menjadi responsif dan berada di tengah layar */
+.hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFF;
+}
+
+.form-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background: #E9EFEC;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.login-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.field {
+    margin-bottom: 15px;
+}
+
+.label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: border 0.3s ease;
+}
+
+.input:focus {
+    border-color: #3273dc;
+    outline: none;
+}
+
+.login-button {
+    background-color: #3273dc;
+    color: white;
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+    background-color: #2762bb;
+}
+
+/* Responsif untuk perangkat mobile */
+@media (max-width: 768px) {
+    .form-container {
+        padding: 15px;
+    }
+
+    .login-button {
+        font-size: 0.9rem;
+    }
+}

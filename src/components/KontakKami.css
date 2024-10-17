@@ -1,0 +1,43 @@
+.Kontak-kami-container {
+  background-color: #729762;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0 0 0;
+  padding: 20px 5px 20px 5px;
+}
+
+
+
+.Kontak-kami-container h2 {
+  padding-right: 10px;
+  color: white;
+}
+
+.link-pengaduan {
+    display:flex;
+    justify-content:center;
+    width:100%;
+    text-decoration:none;
+}
+
+.Button-pengaduan {
+  display: inline-block;
+  border-style: none;
+  background-color: #597445;
+  color: white;
+  border-radius: 12px;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 10px;
+  padding: 15px 0px 15px 0px;
+  width: 15%;
+  transition-duration: 0.4s;
+}
+
+.Button-pengaduan:hover {
+  background-color: white;
+  color: black;
+}

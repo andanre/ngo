@@ -1,0 +1,14 @@
+.Judul-artikel {
+    font-family: 'Montserrat', sans-serif;
+    display:flex;
+    justify-content:center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-weight:600;
+    font-size:30px;
+
+}
+
+.hero-container {
+    margin-top:0px;
+}

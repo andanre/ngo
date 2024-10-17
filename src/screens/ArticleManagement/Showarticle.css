@@ -1,0 +1,39 @@
+
+.article-single-container {
+
+}
+.article-card-single {
+    width:700px;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    margin:10px;
+}
+.article-card-single img {
+    width:100%;
+    height:auto;
+}
+
+.article-card-single h2 {
+
+    color: black;
+    margin:4px;
+    font-weight:700;
+    font-size:25px;
+    padding:20px;
+    margin-top: 20px;
+}
+
+.article-content-single {
+    padding:16px;
+}
+
+.article-content-single p {
+    color: black;
+}
+
+.article-content-single a{
+    display: inline-block;
+    text-decoration: none;
+    color: blue-600;
+}

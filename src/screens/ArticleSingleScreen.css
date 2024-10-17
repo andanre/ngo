@@ -1,0 +1,8 @@
+.article-single-container {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
